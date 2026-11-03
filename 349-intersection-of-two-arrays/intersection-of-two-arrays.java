@@ -14,13 +14,10 @@ class Solution {
         }
         // Step 3
         int[] ans = new int[result.size()];
-
         int i = 0;
-
         for (int x : result) {
             ans[i++] = x;
         }
-
         return ans;
     }
-}
+} 
